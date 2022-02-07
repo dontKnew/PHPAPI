@@ -1,13 +1,13 @@
 <?php
 	class Config {
-	//   private const DBHOST = 'localhost';
-	//   private const DBUSER = 'root';
-	//   private const DBPASS = '';
-	//   private const DBNAME = 'failureboy';
-	private const DBHOST = 'sql210.epizy.com';
-	  private const DBUSER = 'epiz_30791519';
-	  private const DBPASS = 'ShxZs1DOm2v';
-	  private const DBNAME = 'epiz_30791519_failureboy';
+	  private const DBHOST = 'localhost';
+	  private const DBUSER = 'root';
+	  private const DBPASS = '';
+	  private const DBNAME = 'failureboy';
+	// private const DBHOST = 'sql210.epizy.com';
+	//   private const DBUSER = 'epiz_30791519';
+	//   private const DBPASS = 'ShxZs1DOm2v';
+	//   private const DBNAME = 'epiz_30791519_failureboy';
 	  private $dsn = 'mysql:host=' . self::DBHOST . ';dbname=' . self::DBNAME . '';
 	  protected $conn = null;
 
