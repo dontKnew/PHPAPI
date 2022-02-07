@@ -17,7 +17,7 @@
 
 // echo file_get_contents_ssl('https://localhost/Angular/WebAPI/API/FailureBoy/project/8');
 
-echo file_get_contents('https://localhost/Angular/WebAPI/API/FailureBoy/project/8');
+echo file_get_contents('http://localhost/Angular/WebAPI/API/FailureBoy/project/8');
 
 
 ?>
