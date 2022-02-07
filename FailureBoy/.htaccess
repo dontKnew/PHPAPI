@@ -1,0 +1,20 @@
+#Turn Rewrite Engine On
+RewriteEngine On
+
+#Remove .php extension form project.php
+RewriteRule ^project/?$ project.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^project/([0-9]+)/?$ project.php?id=$1 [NC,L]
+
+#Server
+#Turn Rewrite Engine On
+#RewriteEngine On
+
+#In server you can not write htaccess, but you can create new .htaccess
+#Remove .php extension form project.php
+#RewriteRule ^https://coding.great-site.net/FailureBoy/project/?$ project.php [NC,L]
+
+
+#Rewrite URL
+#RewriteRule ^https://coding.great-site.net/FailureBoy/project/([0-9]+)/?$ https://coding.great-site.net/FailureBoy/project.php?id=$1 [NC,L]
